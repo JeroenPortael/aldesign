@@ -1,0 +1,66 @@
+<% include header %>
+
+<div class="header">
+  <h1><a href="/">Al•Des•ign</a></h1>
+</div>
+
+<nav id="menu">
+  <div class="cat-nav nav">
+    <div class="nav-title">
+      <h3>CATEGORIEEN</h3>
+    </div>
+    <div class="filters">
+      <% for (var i = 0; i < categorieen.length; i++) { %>
+        <a href="/categorieen/<%- i %>"><%- categorieen[i] %></a>
+      <% } %>
+    </div>
+  </div>
+
+  <div class="aut-nav nav">
+    <div class="nav-title">
+      <h3>AUTEURS</h3>
+    </div>
+    <div class="filters">
+      <% for (var i = 0; i < auteurs.length; i++) { %>
+        <a href="/auteurs/<%- i %>"><%- auteurs[i] %></a>
+      <% } %>
+    </div>
+  </div>
+</nav>
+
+<div class="panel-background">
+<div id="panel">
+  <header>
+    <button class="toggle-button">☰</button>
+    <h2 class="panel-title">Menu</h2>
+  </header>
+</div>
+</div>
+
+
+  <% var teller = 1; %>
+  <% nieuws.forEach(function(item){ %>
+    <section>
+
+          <a href=/items/<%- item.id %>><img src="<%- item.afbeeldings %>" class="featured-image"alt="<%- item.titel %>"></a>
+
+        <div class="wrap">
+          <h2>
+            <a href=/items/<%- item.id %>><%- item.titel %></a>
+          </h2>
+
+          <p>
+            <%- item.body %>
+          </p>
+
+          <div class="data">
+            <p><%- item.datum %></p>
+            <p>Auteur: <%- item.auteurs %></p>
+          </div>
+          <hr></hr>
+        </div>
+    </section>
+    <% teller++;}); %>
+
+
+<% include footer %>

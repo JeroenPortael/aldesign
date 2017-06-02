@@ -1,0 +1,37 @@
+<% include header %>
+
+<div class="nav">
+  <div class="home-title">
+    <a href="/"><i class="fa fa-angle-left" aria-hidden="true"> </i><h3>Home</h3></a>
+  </div>
+</div>
+
+<h2 class="page-title">Nieuwsitems geschreven door auteur <%- auteurs[id] %></h2>
+
+  <% for (var i = 0; i < items.length; i++) { %>
+    <% if (items[i].auteurs.indexOf(auteurs[id]) !== -1) { %>
+
+      <section>
+        <img src="<%- items[i].afbeeldings %>" class="featured-image" alt="<%- items[i].titel %>">
+
+        <div class="wrap">
+          <h2>
+            <a href=/items/<%- items[i].id %>><%- items[i].titel %></a>
+          </h2>
+
+          <p>
+            <%- items[i].samenvatting %>
+          </p>
+
+          <div class="data">
+            <p><%- items[i].datum %></p>
+            <p>Auteur: <%- items[i].auteurs %></p>
+          </div>
+          <hr></hr>
+
+        </div>
+      </section>
+    <% } %>
+  <% } %>
+
+<% include footer %>

@@ -1,0 +1,77 @@
+{
+    "nieuws":
+    [
+        {
+            "titel": "Dinoctocat",
+            "id": 201,
+            "datum": "01/06/2017",
+            "auteurs": ["Github"],
+            "categorieen": ["Illustrations"],
+            "body": "<p>It was national dinosaur day on May 15th!</p> <p>To celebrate Dinoctocat came out to play.</p> <p>The cutest bug killer to ever live.</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/594393/screenshots/3538157/attachments/785647/dinoctocat-03.png",
+            "afbeeldings": "https://cdn.dribbble.com/users/594393/screenshots/3538157/dinoctocat-01_1x.png",
+            "contentafbeelding": "https://cdn.dribbble.com/users/594393/screenshots/3538157/attachments/785648/dinoctocat-02.png"
+        },
+        {
+            "titel": "Surge Lander",
+            "id": 200,
+            "datum": "01/06/2017 • 16:04",
+            "auteurs": ["Balkan Brothers"],
+            "categorieen": ["Webdesign"],
+            "body": "<p>Hi everyone, </p><p>Earlier this year we worked on a new invoice builder from UK. It's initial name was 'Surge' but that might change prior to their launch.<br>Anyhow i will share more work next month.<br>We designed both the invoice builder web application, as well as invoice templates and website for their launch.</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/757683/screenshots/3538217/surge1_1x.jpg",
+            "afbeeldings": "https://cdn.dribbble.com/users/757683/screenshots/3538217/surge1_1x.jpg"
+        },
+        {
+            "titel": "Benjamin Bannekat",
+            "id": 199,
+            "datum": "06/04/2017",
+            "auteurs": ["Github"],
+            "categorieen": ["Illustrations"],
+            "body": "<p>Introducing Benjamin Bannekat, author, astronomer, and surveyor extraordinaire!</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/1637294/screenshots/3417750/attachments/747376/screen_shot_2017-04-06_at_2.54.27_pm.png",
+            "afbeeldings": "https://cdn.dribbble.com/users/1637294/screenshots/3417750/bannekat_02_dribbble_1x.png",
+            "contentafbeelding": "https://cdn.dribbble.com/users/1637294/screenshots/3417750/attachments/747377/screen_shot_2017-04-06_at_2.57.01_pm.png"
+        },
+        {
+            "titel": "McEfeeline",
+            "id": 196,
+            "datum": "27/01/2017",
+            "auteurs": ["Github"],
+            "categorieen": ["Illustrations"],
+            "body": "<p>A nod to one of our first designers Cameron McEfee. He had the foresight to dress up our feline cephlapod for the first time sending us on an endless path of creating quirky octocat characters.</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/1022662/screenshots/3248602/attachments/696838/dappertocat_sketch_wide_02.png",
+            "afbeeldings": "https://cdn.dribbble.com/users/1022662/screenshots/3248602/dappertocat_wide_1x.png"
+        },
+        {
+            "titel": "Beringer - About",
+            "id": 190,
+            "datum": "05/01/2017",
+            "auteurs": ["Balkan Brothers"],
+            "categorieen": ["Webdesign"],
+            "body": "<p>Had fun redesigning the Beringer Finance with guys @Balkan Brothers</p><p>The about page was a really hard piece, since you can imagine how finance company want to promote themselves, so we need to come up with a fun and nice way to do it.</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/962743/screenshots/3196335/attachments/681173/beringer_design_about.png",
+            "afbeeldings": "https://cdn.dribbble.com/users/962743/screenshots/3196335/shot_new_1x.png"
+        },
+        {
+            "titel": "Personal Emojis",
+            "id": 189,
+            "datum": "01/05/2017",
+            "auteurs": ["Brittany Kolar"],
+            "categorieen": ["Animation"],
+            "body": "<p>A nod to one of our first designers Cameron McEfee. He had the foresight to dress up our feline cephlapod for the first time sending us on an endless path of creating quirky octocat characters.</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/355665/screenshots/3536723/personal_emojis.gif",
+            "afbeeldings": "https://cdn.dribbble.com/users/355665/screenshots/3536723/personal_emojis.gif"
+        },
+        {
+            "titel": "Beer 30",
+            "id": 189,
+            "datum": "25/04/2017",
+            "auteurs": ["Brittany Kolar"],
+            "categorieen": ["Animation"],
+            "body": "<p>Created a short animation to represent Beer 30~ <p>Here are some facts about beer that I learned while creating this.<br>1) The world's longest hangover lasted 4 weeks after a Scotsman consumed 60 pints of beer.<br>2) The strongest beer in the world has a 67.5% alcohol content. (Would you drink it?!)</p>",
+            "afbeeldingl": "https://cdn.dribbble.com/users/355665/screenshots/3457443/beer300.gif",
+            "afbeeldings": "https://cdn.dribbble.com/users/355665/screenshots/3457443/beer300.gif"
+        }
+    ]
+}
